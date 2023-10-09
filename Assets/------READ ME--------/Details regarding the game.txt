@@ -1,0 +1,26 @@
+
+
+
+The game made is basically a 2d space shooter game made for andriod platform.
+Contents that should be included in this game..asked by Rahul Subedi sir:
+- Easy to create levels:
+1. To create levels you can just duplicate the scenes and control the waves as well as difficulties like health of enemy thorugh the game object waves controller and difficulty controller. The scenes are then to be placed in build settings. The buttons will automatically register the build index and perform fine. 
+2. Two worlds:
+I created the worlds named as a basic world and Mars. After completing all levels from previous world .Player can move to the another world.
+3: Mini Ships:
+The twin ships are given to the player at sides that can locate and target the enemy.
+4. Shop system:
+The player can buy new spaceships as well as mini Ships in the shop system.
+5: Credit system:
+Player can get credits by defeating a enemy and earn points after completing a level. The additonal credits are added automatically after completing a level
+6: Waves system
+Developers can customly choose how much waves to be generated in a level using the managers in inspector. This can help create flexibilty and easyness to create new levels.
+
+New waves can be created and placed in wave controller if more variations are needed.
+
+--Hope All condtions you asked are met. Please contact me if I am entitled a post or training. Thank you::
+
+
+
+
+The assets used while making this game are completely original (custom made by me) or some free assets of free licenses(the ui buttons). The spaceship asssets as well as mini ship assets are all original and belongs to the owner. 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5652060561274483902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6563696684028102308}
+  - component: {fileID: 8393907231948150769}
+  - component: {fileID: 8852891831608044816}
+  m_Layer: 0
+  m_Name: EnemyGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6563696684028102308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652060561274483902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6070251, y: -0.89294434, z: -0.041916847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8393907231948150769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652060561274483902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c1a089c3e44fd4880d60821ccb6641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyPrefabs:
+  - {fileID: 6945836949798174781, guid: de7f54fc8d06e6b4b9a0053f00dd9118, type: 3}
+  - {fileID: 6258223708123994565, guid: 32ef44bec4858f147a3f0b04cbcebbbf, type: 3}
+  - {fileID: 1853819626545573284, guid: d6d7f8e1a3878b64c8f516726db8e273, type: 3}
+  - {fileID: 1853819626545573284, guid: 3f67dd209eed0ee40accee727ad9d5eb, type: 3}
+  - {fileID: 1853819626545573284, guid: 0615ee440aac8f746814670801eac0ad, type: 3}
+  - {fileID: 1853819626545573284, guid: 24291fcb02ce3f94c8647c9a208e21ec, type: 3}
+  - {fileID: 1886735423282927569, guid: c83b03e7137582a428a8f9cf8fbd0d54, type: 3}
+  - {fileID: 3326978557272856222, guid: b2f4a31b912425f4fa60faca06c1a879, type: 3}
+  - {fileID: 1165040628238412498, guid: 0e84e6b806078c740a671f895d9ce600, type: 3}
+  Enemyclips:
+  - {fileID: 9100000, guid: 8011ac6303618d34594290ffbabe163a, type: 2}
+  - {fileID: 9100000, guid: 7d410033425f08841ba5b4e5ec35b3a0, type: 2}
+  - {fileID: 9100000, guid: 1e3ba686eae836646b49c0165605838a, type: 2}
+  - {fileID: 9100000, guid: 214d42b4594824646b77b05f6f6e5aa0, type: 2}
+  - {fileID: 9100000, guid: b98ef8887bab86448b43f29b37c7a315, type: 2}
+  - {fileID: 9100000, guid: 2e0985443985aae4eb5159464d4cfb65, type: 2}
+  - {fileID: 9100000, guid: 4d2ff6b6009de60418a783c16c4ca3c5, type: 2}
+  - {fileID: 9100000, guid: 9039984e94068a644b3f76a0ab4512ed, type: 2}
+  - {fileID: 9100000, guid: ece0cef4ec7e9fc40b0f2cf424e65e7d, type: 2}
+  totalspawned: 0
+  spawningNumb: 0
+--- !u!114 &8852891831608044816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652060561274483902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131fc4ca75f03a84ab5e17bba9027ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatedleftpos: 0
+  updatedrightpos: 0
+  updateduppos: 0
+  updateddownpos: 0

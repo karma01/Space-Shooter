@@ -1,0 +1,1 @@
+Scene.Level/nShieldDrop(Clone): Position0,0,Rotation: 0,0,0ShieldDrop(Clone): Position0,0,Rotation: 0,0,0ShieldDrop(Clone): Position0,0,Rotation: 0,0,0
